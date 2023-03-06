@@ -6,7 +6,7 @@ module.exports = {
           const body=req.body.body
 console.log(title)
 console.log(body)
-            const documentPath = 'http://localhost:3000/documents/' + req.file.filename; // Note: set path dynamically
+            const documentPath = 'https://black-pronghorn-robe.cyclic.app/documents/' + req.file.filename; // Note: set path dynamically
             const document = new Document({
               title,body,
               documentPath,

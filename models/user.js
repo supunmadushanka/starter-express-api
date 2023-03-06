@@ -24,7 +24,7 @@ const userSchema = new Schema ({
     dateofregister : String,
     imagePath : {
         type : String, 
-        default: "http://localhost:3000/images/1.png"
+        default: "https://black-pronghorn-robe.cyclic.app/images/1.png"
     }
 })
 

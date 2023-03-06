@@ -9,7 +9,7 @@ exports.postPastpaper = async (req, res) => {
   const { name } = req.body;
   const {lessonname}=req.body;
   const {grade}=req.body;
-  const paperPath = 'http://localhost:3000/pastpapers/' +   req.file.filename; // Note: set path dynamically
+  const paperPath = 'https://black-pronghorn-robe.cyclic.app/pastpapers/' +   req.file.filename; // Note: set path dynamically
   const pastpaper = new Pastpaper({
     name,
     paperPath,

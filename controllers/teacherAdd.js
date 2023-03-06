@@ -18,7 +18,7 @@ exports.postProfile = async (req, res) => {
   const { Subject } = req.body;
   const { description } = req.body;
   
-  const imagePath = 'http://localhost:3000/images/' + req.file.filename; // Note: set path dynamically
+  const imagePath = 'https://black-pronghorn-robe.cyclic.app/images/' + req.file.filename; // Note: set path dynamically
   const profile = new Profile({
    
     name,

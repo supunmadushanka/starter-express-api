@@ -10,7 +10,7 @@ exports.postUpload = async (req, res) => {
   const { name } = req.body;
   const { des } = req.body;
 
-  const videoPath = 'http://localhost:3000/videos/' + req.file.filename;
+  const videoPath = 'https://black-pronghorn-robe.cyclic.app/videos/' + req.file.filename;
   const { teachername} =req.body;
   const { insertgrade}=req.body
    // Note: set path dynamically

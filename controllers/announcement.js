@@ -8,7 +8,7 @@ exports.getProfiles = async (req, res) => {
 exports.postProfile = async (req, res) => {
     const { des } = req.body;
   const { name } = req.body;
-  const imagePath = 'http://localhost:3000/announcement/' + req.file.filename; // Note: set path dynamically
+  const imagePath = 'https://black-pronghorn-robe.cyclic.app/announcement/' + req.file.filename; // Note: set path dynamically
   const profile = new Profile({
     name,
     imagePath,
